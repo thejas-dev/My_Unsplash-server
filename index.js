@@ -24,10 +24,10 @@ mongoose.connect(process.env.MONGO_ID,{
 	console.log(err.message)
 })
 
-// let port = process.env.PORT || 3333 
+let port = process.env.PORT || 3333 
 
-// app.listen(port,()=>{
-// 	console.log(`app is listening on PORT ${port}`)
-// })
+app.listen(port,()=>{
+	console.log(`app is listening on PORT ${port}`)
+})
 
-module.exports = app;
+
