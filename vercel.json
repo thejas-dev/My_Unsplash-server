@@ -3,9 +3,9 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "builds": [
-    { "src": "*.ts", "use": "@now/node" }
+    { "src": "*.js", "use": "@now/node" }
   ],
   "routes": [
-    { "src": "/.*", "dest": "/index.ts" }
+    { "src": "/.*", "dest": "/index.js" }
   ]
 }
